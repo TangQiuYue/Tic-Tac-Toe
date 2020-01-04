@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Tic Tac Toe End of term project</string>
+    <string name="welcome"><![CDATA[Welcome]]></string>
+    <string name="welcome_to_"><![CDATA[To]]></string>
+    <string name="welcome_to_tic_tac_toe"><![CDATA[Tic Tac Toe]]></string>
+    <string name="two_players">Two Players</string>
+    <string name="one_player">One Player</string>
+    <string name="about_this_app">About This App</string>
+    <string name="impossible_game">impossible game</string>
+
+    <!-- UserName Fragment -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="playerone">Player One</string>
+    <string name="player_two">Player Two</string>
+    <string name="enter_name_of_player_one">Enter name of Player One</string>
+    <string name="enter_name_of_player_Two">Enter name of Player Two</string>
+    <string name="p1">Player One</string>
+    <string name="p2"> Player Two</string>
+    <string name="start_game">Start Game</string>
+</resources>

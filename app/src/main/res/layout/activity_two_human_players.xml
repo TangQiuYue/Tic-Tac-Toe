@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TwoHumanPlayers" >
+<fragment
+    android:name="com.example.tictactoeendoftermproject.UserNames_Fragment"
+    android:id="@+id/fragmentUserNames"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:layout="@layout/fragment_user_names"
+    />
+    <TextView
+        android:id="@+id/txtViewP1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="50dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:id="@+id/txtViewScoreOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="50dp"
+        android:layout_toRightOf="@id/txtViewP1"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:layout_toEndOf="@id/txtViewP1"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:id="@+id/txtViewP2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="50dp"
+        android:layout_toRightOf="@id/txtViewScoreOne"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@id/txtViewScoreOne" />
+
+    <TextView
+        android:id="@+id/txtViewScoreTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="50dp"
+        android:layout_toRightOf="@id/txtViewP2"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@id/txtViewP2" />
+    </RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/fragmentUserNames">
+
+    <TextView
+        android:id="@+id/txtViewPlayerOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="30dp"
+        android:layout_centerInParent="true"
+        android:hint="@string/p1"
+        android:text="@string/playerone"
+        android:textColor="#FF1744"
+        android:textColorHint="#00E40909"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        android:layout_marginStart="30dp" />
+
+    <EditText
+        android:id="@+id/editTxtPlayerOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="241dp"
+        android:layout_toRightOf="@id/txtViewPlayerOne"
+        android:ems="10"
+        android:hint="@string/enter_name_of_player_one"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:labelFor="@id/txtViewPlayerOne"
+        android:text="@string/enter_name_of_player_one"
+        android:textSize="18sp"
+        android:layout_marginStart="30dp"
+        android:layout_toEndOf="@id/txtViewPlayerOne" />
+
+    <TextView
+        android:id="@+id/txtViewPlayerTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtViewPlayerOne"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:hint="@string/p2"
+        android:text="@string/player_two"
+        android:textColor="#64DD17"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp" />
+
+    <EditText
+        android:id="@+id/editTxtPlayerTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTxtPlayerOne"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="24dp"
+        android:layout_toRightOf="@id/txtViewPlayerTwo"
+        android:ems="10"
+        android:hint="@string/enter_name_of_player_Two"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:labelFor="@id/txtViewPlayerTwo"
+        android:text="@string/enter_name_of_player_Two"
+        android:textSize="18sp"
+        android:layout_marginStart="30dp"
+        android:layout_toEndOf="@id/txtViewPlayerTwo" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="261dp"
+        android:layout_height="111dp"
+        android:layout_below="@id/editTxtPlayerTwo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:shape="rectangle"
+        app:srcCompat="@drawable/boutongo"
+        android:contentDescription="@string/start_game" />
+
+</RelativeLayout>
