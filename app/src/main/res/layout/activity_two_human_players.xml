@@ -4,61 +4,72 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TwoHumanPlayers" >
-<fragment
-    android:name="com.example.tictactoeendoftermproject.UserNames_Fragment"
-    android:id="@+id/fragmentUserNames"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    tools:layout="@layout/fragment_user_names"
-    />
+    tools:context=".TwoHumanPlayers">
+
+    <fragment
+        android:id="@+id/fragmentUserNames"
+        android:name="com.example.tictactoeendoftermproject.UserNames_Fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        tools:layout="@layout/fragment_user_names" />
+
+    <fragment
+        android:id="@+id/tictactoegrid"
+        android:name="com.example.tictactoeendoftermproject.Tictactoe_Grid_Fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        tools:layout="@layout/fragment_tictactoe_grid" />
+
     <TextView
         android:id="@+id/txtViewP1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginBottom="50dp"
-        android:text="TextView"
-        android:textSize="18sp"
-        android:layout_marginStart="20dp" />
+        android:text="Player One"
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/txtViewScoreOne"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginBottom="50dp"
         android:layout_toRightOf="@id/txtViewP1"
-        android:text="TextView"
-        android:textSize="18sp"
         android:layout_toEndOf="@id/txtViewP1"
-        android:layout_marginStart="20dp" />
+        android:text="0"
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/txtViewP2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginBottom="50dp"
         android:layout_toRightOf="@id/txtViewScoreOne"
-        android:text="TextView"
-        android:textSize="18sp"
-        android:layout_marginStart="20dp"
-        android:layout_toEndOf="@id/txtViewScoreOne" />
+        android:layout_toEndOf="@id/txtViewScoreOne"
+        android:text="Player 2"
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/txtViewScoreTwo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginBottom="50dp"
         android:layout_toRightOf="@id/txtViewP2"
-        android:text="TextView"
-        android:textSize="18sp"
-        android:layout_marginStart="20dp"
-        android:layout_toEndOf="@id/txtViewP2" />
-    </RelativeLayout>
+        android:text="0"
+        android:layout_toEndOf="@id/txtViewP2"
+        android:textSize="18sp" />
+
+</RelativeLayout>

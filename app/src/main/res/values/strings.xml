@@ -12,8 +12,8 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="playerone">Player One</string>
     <string name="player_two">Player Two</string>
-    <string name="enter_name_of_player_one">Enter name of Player One</string>
-    <string name="enter_name_of_player_Two">Enter name of Player Two</string>
+    <string name="enter_name_of_player_one">Enter name Player one</string>
+    <string name="enter_name_of_player_Two">Enter name Player Two</string>
     <string name="p1">Player One</string>
     <string name="p2"> Player Two</string>
     <string name="start_game">Start Game</string>

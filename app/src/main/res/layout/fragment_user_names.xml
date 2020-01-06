@@ -9,17 +9,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="250dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="30dp"
         android:layout_marginLeft="30dp"
-        android:layout_centerInParent="true"
+        android:layout_marginTop="150dp"
         android:hint="@string/p1"
         android:text="@string/playerone"
         android:textColor="#FF1744"
         android:textColorHint="#00E40909"
-        android:textSize="18sp"
+        android:textSize="14sp"
         android:textStyle="bold"
-        android:visibility="visible"
-        android:layout_marginStart="30dp" />
+        android:visibility="visible" />
 
     <EditText
         android:id="@+id/editTxtPlayerOne"
@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="241dp"
+        android:layout_marginTop="140dp"
         android:layout_toRightOf="@id/txtViewPlayerOne"
         android:ems="10"
         android:hint="@string/enter_name_of_player_one"
@@ -35,7 +35,7 @@
         android:inputType="textPersonName"
         android:labelFor="@id/txtViewPlayerOne"
         android:text="@string/enter_name_of_player_one"
-        android:textSize="18sp"
+        android:textSize="14sp"
         android:layout_marginStart="30dp"
         android:layout_toEndOf="@id/txtViewPlayerOne" />
 
@@ -50,7 +50,7 @@
         android:hint="@string/p2"
         android:text="@string/player_two"
         android:textColor="#64DD17"
-        android:textSize="18sp"
+        android:textSize="14sp"
         android:textStyle="bold"
         android:layout_alignParentStart="true"
         android:layout_marginStart="30dp" />
@@ -69,19 +69,19 @@
         android:inputType="textPersonName"
         android:labelFor="@id/txtViewPlayerTwo"
         android:text="@string/enter_name_of_player_Two"
-        android:textSize="18sp"
+        android:textSize="14sp"
         android:layout_marginStart="30dp"
         android:layout_toEndOf="@id/txtViewPlayerTwo" />
 
-    <ImageButton
-        android:id="@+id/imageButton2"
+
+    <Button
+        android:id="@+id/gogobutton"
         android:layout_width="261dp"
         android:layout_height="111dp"
         android:layout_below="@id/editTxtPlayerTwo"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:shape="rectangle"
-        app:srcCompat="@drawable/boutongo"
-        android:contentDescription="@string/start_game" />
+        android:contentDescription="@string/start_game"
+        android:foreground="@drawable/boutongo"
+        android:layout_marginLeft="30dp"/>
 
 </RelativeLayout>
