@@ -17,4 +17,9 @@
     <string name="p1">Player One</string>
     <string name="p2"> Player Two</string>
     <string name="start_game">Start Game</string>
+    <string name="who_s_turn">Who\'s turn</string>
+    <string name="player_one">Player One</string>
+    <string name="_0">0</string>
+    <string name="player_2">Player 2</string>
+    <string name="turn">"'"s turn!</string>
 </resources>

@@ -34,7 +34,6 @@
         android:importantForAutofill="no"
         android:inputType="textPersonName"
         android:labelFor="@id/txtViewPlayerOne"
-        android:text="@string/enter_name_of_player_one"
         android:textSize="14sp"
         android:layout_marginStart="30dp"
         android:layout_toEndOf="@id/txtViewPlayerOne" />
@@ -68,7 +67,6 @@
         android:importantForAutofill="no"
         android:inputType="textPersonName"
         android:labelFor="@id/txtViewPlayerTwo"
-        android:text="@string/enter_name_of_player_Two"
         android:textSize="14sp"
         android:layout_marginStart="30dp"
         android:layout_toEndOf="@id/txtViewPlayerTwo" />

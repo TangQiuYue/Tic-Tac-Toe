@@ -11,8 +11,11 @@
         android:name="com.example.tictactoeendoftermproject.UserNames_Fragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
-        tools:layout="@layout/fragment_user_names" />
+        android:visibility="invisible"
+        tools:layout="@layout/fragment_user_names"
+        tools:visibility="invisible" />
 
     <fragment
         android:id="@+id/tictactoegrid"
@@ -20,7 +23,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        tools:layout="@layout/fragment_tictactoe_grid" />
+        android:visibility="visible"
+        tools:layout="@layout/fragment_tictactoe_grid"
+        tools:visibility="visible" />
 
     <TextView
         android:id="@+id/txtViewP1"
@@ -28,9 +33,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
         android:layout_marginBottom="50dp"
-        android:text="Player One"
+        android:text="@string/player_one"
         android:textSize="18sp" />
 
     <TextView
@@ -39,11 +43,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
         android:layout_marginBottom="50dp"
-        android:layout_toRightOf="@id/txtViewP1"
         android:layout_toEndOf="@id/txtViewP1"
-        android:text="0"
+        android:text="@string/_0"
         android:textSize="18sp" />
 
     <TextView
@@ -52,11 +54,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
         android:layout_marginBottom="50dp"
-        android:layout_toRightOf="@id/txtViewScoreOne"
         android:layout_toEndOf="@id/txtViewScoreOne"
-        android:text="Player 2"
+        android:text="@string/player_2"
         android:textSize="18sp" />
 
     <TextView
@@ -65,11 +65,19 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
         android:layout_marginBottom="50dp"
-        android:layout_toRightOf="@id/txtViewP2"
-        android:text="0"
+        android:text="@string/_0"
         android:layout_toEndOf="@id/txtViewP2"
         android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/whosTurn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/who_s_turn"
+        android:layout_above="@id/txtViewP1"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="22sp"/>
 
 </RelativeLayout>

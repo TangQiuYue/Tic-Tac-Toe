@@ -51,15 +51,17 @@
                         android:id="@+id/a2"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:layout_weight="1"
                         android:background="@drawable/grid_box_plain"
-                        android:layout_weight="1" />
+                        android:onClick="onA2Click" />
 
                     <TableRow
                         android:id="@+id/a3"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:layout_weight="1"
                         android:background="@drawable/grid_box_plain"
-                        android:layout_weight="1" />
+                        android:onClick="onA3Click" />
                 </TableRow>
 
                 <TableRow
@@ -72,21 +74,24 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:background="@drawable/grid_box_plain"/>
+                        android:background="@drawable/grid_box_plain"
+                        android:onClick="onB1Click" />
 
                     <TableRow
                         android:id="@+id/b2"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:background="@drawable/grid_box_plain"/>
+                        android:background="@drawable/grid_box_plain"
+                        android:onClick="onB2Click" />
 
                     <TableRow
                         android:id="@+id/b3"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:background="@drawable/grid_box_plain"/>
+                        android:background="@drawable/grid_box_plain"
+                        android:onClick="onB3Click" />
                 </TableRow>
 
                 <TableRow
@@ -99,21 +104,24 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:background="@drawable/grid_box_plain"/>
+                        android:background="@drawable/grid_box_plain"
+                        android:onClick="onC1Click" />
 
                     <TableRow
                         android:id="@+id/c2"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:background="@drawable/grid_box_plain"/>
+                        android:background="@drawable/grid_box_plain"
+                        android:onClick="onC2Click" />
 
                     <TableRow
                         android:id="@+id/c3"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:background="@drawable/grid_box_plain"/>
+                        android:background="@drawable/grid_box_plain"
+                        android:onClick="onC3Click" />
                 </TableRow>
             </TableLayout>
 
